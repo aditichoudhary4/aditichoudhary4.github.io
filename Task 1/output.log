@@ -1,0 +1,1699 @@
+✅ Found transcript in Hindi (auto-generated) (auto-generated)
+❌ Failed to fetch actual transcript content: no element found: line 1, column 0
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in Hindi (auto-generated) (auto-generated)
+✅ Transcript saved to output.json
+❌ Error while fetching transcript: 'TranscriptList' object has no attribute '_transcripts'
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 44, in fetch_transcript
+    transcript = transcript_list.find_transcript([lang])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 265, in find_transcript
+    return self._find_transcript(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 306, in _find_transcript
+    raise NoTranscriptFound(self.video_id, language_codes, self)
+youtube_transcript_api._errors.NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Vi8M8F5AXro! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['en']
+
+For this video (Vi8M8F5AXro) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - ab ("Abkhazian")
+ - aa ("Afar")
+ - af ("Afrikaans")
+ - ak ("Akan")
+ - sq ("Albanian")
+ - am ("Amharic")
+ - ar ("Arabic")
+ - hy ("Armenian")
+ - as ("Assamese")
+ - ay ("Aymara")
+ - az ("Azerbaijani")
+ - bn ("Bangla")
+ - ba ("Bashkir")
+ - eu ("Basque")
+ - be ("Belarusian")
+ - bho ("Bhojpuri")
+ - bs ("Bosnian")
+ - br ("Breton")
+ - bg ("Bulgarian")
+ - my ("Burmese")
+ - ca ("Catalan")
+ - ceb ("Cebuano")
+ - zh-Hans ("Chinese (Simplified)")
+ - zh-Hant ("Chinese (Traditional)")
+ - co ("Corsican")
+ - hr ("Croatian")
+ - cs ("Czech")
+ - da ("Danish")
+ - dv ("Divehi")
+ - nl ("Dutch")
+ - dz ("Dzongkha")
+ - en ("English")
+ - eo ("Esperanto")
+ - et ("Estonian")
+ - ee ("Ewe")
+ - fo ("Faroese")
+ - fj ("Fijian")
+ - fil ("Filipino")
+ - fi ("Finnish")
+ - fr ("French")
+ - gaa ("Ga")
+ - gl ("Galician")
+ - lg ("Ganda")
+ - ka ("Georgian")
+ - de ("German")
+ - el ("Greek")
+ - gn ("Guarani")
+ - gu ("Gujarati")
+ - ht ("Haitian Creole")
+ - ha ("Hausa")
+ - haw ("Hawaiian")
+ - iw ("Hebrew")
+ - hi ("Hindi")
+ - hmn ("Hmong")
+ - hu ("Hungarian")
+ - is ("Icelandic")
+ - ig ("Igbo")
+ - id ("Indonesian")
+ - iu ("Inuktitut")
+ - ga ("Irish")
+ - it ("Italian")
+ - ja ("Japanese")
+ - jv ("Javanese")
+ - kl ("Kalaallisut")
+ - kn ("Kannada")
+ - kk ("Kazakh")
+ - kha ("Khasi")
+ - km ("Khmer")
+ - rw ("Kinyarwanda")
+ - ko ("Korean")
+ - kri ("Krio")
+ - ku ("Kurdish")
+ - ky ("Kyrgyz")
+ - lo ("Lao")
+ - la ("Latin")
+ - lv ("Latvian")
+ - ln ("Lingala")
+ - lt ("Lithuanian")
+ - lua ("Luba-Lulua")
+ - luo ("Luo")
+ - lb ("Luxembourgish")
+ - mk ("Macedonian")
+ - mg ("Malagasy")
+ - ms ("Malay")
+ - ml ("Malayalam")
+ - mt ("Maltese")
+ - gv ("Manx")
+ - mi ("Māori")
+ - mr ("Marathi")
+ - mn ("Mongolian")
+ - mfe ("Morisyen")
+ - ne ("Nepali")
+ - new ("Newari")
+ - nso ("Northern Sotho")
+ - no ("Norwegian")
+ - ny ("Nyanja")
+ - oc ("Occitan")
+ - or ("Odia")
+ - om ("Oromo")
+ - os ("Ossetic")
+ - pam ("Pampanga")
+ - ps ("Pashto")
+ - fa ("Persian")
+ - pl ("Polish")
+ - pt ("Portuguese")
+ - pt-PT ("Portuguese (Portugal)")
+ - pa ("Punjabi")
+ - qu ("Quechua")
+ - ro ("Romanian")
+ - rn ("Rundi")
+ - ru ("Russian")
+ - sm ("Samoan")
+ - sg ("Sango")
+ - sa ("Sanskrit")
+ - gd ("Scottish Gaelic")
+ - sr ("Serbian")
+ - crs ("Seselwa Creole French")
+ - sn ("Shona")
+ - sd ("Sindhi")
+ - si ("Sinhala")
+ - sk ("Slovak")
+ - sl ("Slovenian")
+ - so ("Somali")
+ - st ("Southern Sotho")
+ - es ("Spanish")
+ - su ("Sundanese")
+ - sw ("Swahili")
+ - ss ("Swati")
+ - sv ("Swedish")
+ - tg ("Tajik")
+ - ta ("Tamil")
+ - tt ("Tatar")
+ - te ("Telugu")
+ - th ("Thai")
+ - bo ("Tibetan")
+ - ti ("Tigrinya")
+ - to ("Tongan")
+ - ts ("Tsonga")
+ - tn ("Tswana")
+ - tum ("Tumbuka")
+ - tr ("Turkish")
+ - tk ("Turkmen")
+ - uk ("Ukrainian")
+ - ur ("Urdu")
+ - ug ("Uyghur")
+ - uz ("Uzbek")
+ - ve ("Venda")
+ - vi ("Vietnamese")
+ - war ("Waray")
+ - cy ("Welsh")
+ - fy ("Western Frisian")
+ - wo ("Wolof")
+ - xh ("Xhosa")
+ - yi ("Yiddish")
+ - yo ("Yoruba")
+ - zu ("Zulu")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 47, in fetch_transcript
+    transcript = transcript_list.find_generated_transcript([lang])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 279, in find_generated_transcript
+    return self._find_transcript(language_codes, [self._generated_transcripts])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 306, in _find_transcript
+    raise NoTranscriptFound(self.video_id, language_codes, self)
+youtube_transcript_api._errors.NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Vi8M8F5AXro! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['en']
+
+For this video (Vi8M8F5AXro) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - ab ("Abkhazian")
+ - aa ("Afar")
+ - af ("Afrikaans")
+ - ak ("Akan")
+ - sq ("Albanian")
+ - am ("Amharic")
+ - ar ("Arabic")
+ - hy ("Armenian")
+ - as ("Assamese")
+ - ay ("Aymara")
+ - az ("Azerbaijani")
+ - bn ("Bangla")
+ - ba ("Bashkir")
+ - eu ("Basque")
+ - be ("Belarusian")
+ - bho ("Bhojpuri")
+ - bs ("Bosnian")
+ - br ("Breton")
+ - bg ("Bulgarian")
+ - my ("Burmese")
+ - ca ("Catalan")
+ - ceb ("Cebuano")
+ - zh-Hans ("Chinese (Simplified)")
+ - zh-Hant ("Chinese (Traditional)")
+ - co ("Corsican")
+ - hr ("Croatian")
+ - cs ("Czech")
+ - da ("Danish")
+ - dv ("Divehi")
+ - nl ("Dutch")
+ - dz ("Dzongkha")
+ - en ("English")
+ - eo ("Esperanto")
+ - et ("Estonian")
+ - ee ("Ewe")
+ - fo ("Faroese")
+ - fj ("Fijian")
+ - fil ("Filipino")
+ - fi ("Finnish")
+ - fr ("French")
+ - gaa ("Ga")
+ - gl ("Galician")
+ - lg ("Ganda")
+ - ka ("Georgian")
+ - de ("German")
+ - el ("Greek")
+ - gn ("Guarani")
+ - gu ("Gujarati")
+ - ht ("Haitian Creole")
+ - ha ("Hausa")
+ - haw ("Hawaiian")
+ - iw ("Hebrew")
+ - hi ("Hindi")
+ - hmn ("Hmong")
+ - hu ("Hungarian")
+ - is ("Icelandic")
+ - ig ("Igbo")
+ - id ("Indonesian")
+ - iu ("Inuktitut")
+ - ga ("Irish")
+ - it ("Italian")
+ - ja ("Japanese")
+ - jv ("Javanese")
+ - kl ("Kalaallisut")
+ - kn ("Kannada")
+ - kk ("Kazakh")
+ - kha ("Khasi")
+ - km ("Khmer")
+ - rw ("Kinyarwanda")
+ - ko ("Korean")
+ - kri ("Krio")
+ - ku ("Kurdish")
+ - ky ("Kyrgyz")
+ - lo ("Lao")
+ - la ("Latin")
+ - lv ("Latvian")
+ - ln ("Lingala")
+ - lt ("Lithuanian")
+ - lua ("Luba-Lulua")
+ - luo ("Luo")
+ - lb ("Luxembourgish")
+ - mk ("Macedonian")
+ - mg ("Malagasy")
+ - ms ("Malay")
+ - ml ("Malayalam")
+ - mt ("Maltese")
+ - gv ("Manx")
+ - mi ("Māori")
+ - mr ("Marathi")
+ - mn ("Mongolian")
+ - mfe ("Morisyen")
+ - ne ("Nepali")
+ - new ("Newari")
+ - nso ("Northern Sotho")
+ - no ("Norwegian")
+ - ny ("Nyanja")
+ - oc ("Occitan")
+ - or ("Odia")
+ - om ("Oromo")
+ - os ("Ossetic")
+ - pam ("Pampanga")
+ - ps ("Pashto")
+ - fa ("Persian")
+ - pl ("Polish")
+ - pt ("Portuguese")
+ - pt-PT ("Portuguese (Portugal)")
+ - pa ("Punjabi")
+ - qu ("Quechua")
+ - ro ("Romanian")
+ - rn ("Rundi")
+ - ru ("Russian")
+ - sm ("Samoan")
+ - sg ("Sango")
+ - sa ("Sanskrit")
+ - gd ("Scottish Gaelic")
+ - sr ("Serbian")
+ - crs ("Seselwa Creole French")
+ - sn ("Shona")
+ - sd ("Sindhi")
+ - si ("Sinhala")
+ - sk ("Slovak")
+ - sl ("Slovenian")
+ - so ("Somali")
+ - st ("Southern Sotho")
+ - es ("Spanish")
+ - su ("Sundanese")
+ - sw ("Swahili")
+ - ss ("Swati")
+ - sv ("Swedish")
+ - tg ("Tajik")
+ - ta ("Tamil")
+ - tt ("Tatar")
+ - te ("Telugu")
+ - th ("Thai")
+ - bo ("Tibetan")
+ - ti ("Tigrinya")
+ - to ("Tongan")
+ - ts ("Tsonga")
+ - tn ("Tswana")
+ - tum ("Tumbuka")
+ - tr ("Turkish")
+ - tk ("Turkmen")
+ - uk ("Ukrainian")
+ - ur ("Urdu")
+ - ug ("Uyghur")
+ - uz ("Uzbek")
+ - ve ("Venda")
+ - vi ("Vietnamese")
+ - war ("Waray")
+ - cy ("Welsh")
+ - fy ("Western Frisian")
+ - wo ("Wolof")
+ - xh ("Xhosa")
+ - yi ("Yiddish")
+ - yo ("Yoruba")
+ - zu ("Zulu")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 49, in fetch_transcript
+    transcript = list(transcript_list._transcripts.values())[0]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TranscriptList' object has no attribute '_transcripts'
+
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in English (auto-generated) (auto-generated)
+✅ Transcript saved to output.json
+✅ Found transcript in English (auto-generated) (auto-generated)
+❌ Failed to fetch actual transcript content: no element found: line 1, column 0
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in English (auto-generated) (auto-generated)
+❌ Failed to fetch actual transcript content: no element found: line 1, column 0
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in English (auto-generated) (auto-generated)
+❌ Failed to fetch actual transcript content: 'FetchedTranscriptSnippet' object is not subscriptable
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in English (auto-generated) (auto-generated)
+✅ Transcript saved to output.json
+✅ Found transcript in English (auto-generated) (auto-generated)
+❌ Failed to fetch actual transcript content: no element found: line 1, column 0
+⚠️ Transcript could not be retrieved.
+❌ Error while fetching transcript: 'TranscriptList' object has no attribute 'transcripts'
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 45, in fetch_transcript
+    transcript = transcript_list.find_transcript([lang])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 265, in find_transcript
+    return self._find_transcript(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 306, in _find_transcript
+    raise NoTranscriptFound(self.video_id, language_codes, self)
+youtube_transcript_api._errors.NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=dQw4w9WgXcQ! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['hi']
+
+For this video (dQw4w9WgXcQ) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+ - en ("English")[TRANSLATABLE]
+ - de-DE ("German (Germany)")[TRANSLATABLE]
+ - ja ("Japanese")[TRANSLATABLE]
+ - pt-BR ("Portuguese (Brazil)")[TRANSLATABLE]
+ - es-419 ("Spanish (Latin America)")[TRANSLATABLE]
+
+(GENERATED)
+ - en ("English (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - ab ("Abkhazian")
+ - aa ("Afar")
+ - af ("Afrikaans")
+ - ak ("Akan")
+ - sq ("Albanian")
+ - am ("Amharic")
+ - ar ("Arabic")
+ - hy ("Armenian")
+ - as ("Assamese")
+ - ay ("Aymara")
+ - az ("Azerbaijani")
+ - bn ("Bangla")
+ - ba ("Bashkir")
+ - eu ("Basque")
+ - be ("Belarusian")
+ - bho ("Bhojpuri")
+ - bs ("Bosnian")
+ - br ("Breton")
+ - bg ("Bulgarian")
+ - my ("Burmese")
+ - ca ("Catalan")
+ - ceb ("Cebuano")
+ - zh-Hans ("Chinese (Simplified)")
+ - zh-Hant ("Chinese (Traditional)")
+ - co ("Corsican")
+ - hr ("Croatian")
+ - cs ("Czech")
+ - da ("Danish")
+ - dv ("Divehi")
+ - nl ("Dutch")
+ - dz ("Dzongkha")
+ - en ("English")
+ - eo ("Esperanto")
+ - et ("Estonian")
+ - ee ("Ewe")
+ - fo ("Faroese")
+ - fj ("Fijian")
+ - fil ("Filipino")
+ - fi ("Finnish")
+ - fr ("French")
+ - gaa ("Ga")
+ - gl ("Galician")
+ - lg ("Ganda")
+ - ka ("Georgian")
+ - de ("German")
+ - el ("Greek")
+ - gn ("Guarani")
+ - gu ("Gujarati")
+ - ht ("Haitian Creole")
+ - ha ("Hausa")
+ - haw ("Hawaiian")
+ - iw ("Hebrew")
+ - hi ("Hindi")
+ - hmn ("Hmong")
+ - hu ("Hungarian")
+ - is ("Icelandic")
+ - ig ("Igbo")
+ - id ("Indonesian")
+ - iu ("Inuktitut")
+ - ga ("Irish")
+ - it ("Italian")
+ - ja ("Japanese")
+ - jv ("Javanese")
+ - kl ("Kalaallisut")
+ - kn ("Kannada")
+ - kk ("Kazakh")
+ - kha ("Khasi")
+ - km ("Khmer")
+ - rw ("Kinyarwanda")
+ - ko ("Korean")
+ - kri ("Krio")
+ - ku ("Kurdish")
+ - ky ("Kyrgyz")
+ - lo ("Lao")
+ - la ("Latin")
+ - lv ("Latvian")
+ - ln ("Lingala")
+ - lt ("Lithuanian")
+ - lua ("Luba-Lulua")
+ - luo ("Luo")
+ - lb ("Luxembourgish")
+ - mk ("Macedonian")
+ - mg ("Malagasy")
+ - ms ("Malay")
+ - ml ("Malayalam")
+ - mt ("Maltese")
+ - gv ("Manx")
+ - mi ("Māori")
+ - mr ("Marathi")
+ - mn ("Mongolian")
+ - mfe ("Morisyen")
+ - ne ("Nepali")
+ - new ("Newari")
+ - nso ("Northern Sotho")
+ - no ("Norwegian")
+ - ny ("Nyanja")
+ - oc ("Occitan")
+ - or ("Odia")
+ - om ("Oromo")
+ - os ("Ossetic")
+ - pam ("Pampanga")
+ - ps ("Pashto")
+ - fa ("Persian")
+ - pl ("Polish")
+ - pt ("Portuguese")
+ - pt-PT ("Portuguese (Portugal)")
+ - pa ("Punjabi")
+ - qu ("Quechua")
+ - ro ("Romanian")
+ - rn ("Rundi")
+ - ru ("Russian")
+ - sm ("Samoan")
+ - sg ("Sango")
+ - sa ("Sanskrit")
+ - gd ("Scottish Gaelic")
+ - sr ("Serbian")
+ - crs ("Seselwa Creole French")
+ - sn ("Shona")
+ - sd ("Sindhi")
+ - si ("Sinhala")
+ - sk ("Slovak")
+ - sl ("Slovenian")
+ - so ("Somali")
+ - st ("Southern Sotho")
+ - es ("Spanish")
+ - su ("Sundanese")
+ - sw ("Swahili")
+ - ss ("Swati")
+ - sv ("Swedish")
+ - tg ("Tajik")
+ - ta ("Tamil")
+ - tt ("Tatar")
+ - te ("Telugu")
+ - th ("Thai")
+ - bo ("Tibetan")
+ - ti ("Tigrinya")
+ - to ("Tongan")
+ - ts ("Tsonga")
+ - tn ("Tswana")
+ - tum ("Tumbuka")
+ - tr ("Turkish")
+ - tk ("Turkmen")
+ - uk ("Ukrainian")
+ - ur ("Urdu")
+ - ug ("Uyghur")
+ - uz ("Uzbek")
+ - ve ("Venda")
+ - vi ("Vietnamese")
+ - war ("Waray")
+ - cy ("Welsh")
+ - fy ("Western Frisian")
+ - wo ("Wolof")
+ - xh ("Xhosa")
+ - yi ("Yiddish")
+ - yo ("Yoruba")
+ - zu ("Zulu")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 48, in fetch_transcript
+    transcript = transcript_list.find_generated_transcript([lang])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 279, in find_generated_transcript
+    return self._find_transcript(language_codes, [self._generated_transcripts])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 306, in _find_transcript
+    raise NoTranscriptFound(self.video_id, language_codes, self)
+youtube_transcript_api._errors.NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=dQw4w9WgXcQ! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['hi']
+
+For this video (dQw4w9WgXcQ) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+ - en ("English")[TRANSLATABLE]
+ - de-DE ("German (Germany)")[TRANSLATABLE]
+ - ja ("Japanese")[TRANSLATABLE]
+ - pt-BR ("Portuguese (Brazil)")[TRANSLATABLE]
+ - es-419 ("Spanish (Latin America)")[TRANSLATABLE]
+
+(GENERATED)
+ - en ("English (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - ab ("Abkhazian")
+ - aa ("Afar")
+ - af ("Afrikaans")
+ - ak ("Akan")
+ - sq ("Albanian")
+ - am ("Amharic")
+ - ar ("Arabic")
+ - hy ("Armenian")
+ - as ("Assamese")
+ - ay ("Aymara")
+ - az ("Azerbaijani")
+ - bn ("Bangla")
+ - ba ("Bashkir")
+ - eu ("Basque")
+ - be ("Belarusian")
+ - bho ("Bhojpuri")
+ - bs ("Bosnian")
+ - br ("Breton")
+ - bg ("Bulgarian")
+ - my ("Burmese")
+ - ca ("Catalan")
+ - ceb ("Cebuano")
+ - zh-Hans ("Chinese (Simplified)")
+ - zh-Hant ("Chinese (Traditional)")
+ - co ("Corsican")
+ - hr ("Croatian")
+ - cs ("Czech")
+ - da ("Danish")
+ - dv ("Divehi")
+ - nl ("Dutch")
+ - dz ("Dzongkha")
+ - en ("English")
+ - eo ("Esperanto")
+ - et ("Estonian")
+ - ee ("Ewe")
+ - fo ("Faroese")
+ - fj ("Fijian")
+ - fil ("Filipino")
+ - fi ("Finnish")
+ - fr ("French")
+ - gaa ("Ga")
+ - gl ("Galician")
+ - lg ("Ganda")
+ - ka ("Georgian")
+ - de ("German")
+ - el ("Greek")
+ - gn ("Guarani")
+ - gu ("Gujarati")
+ - ht ("Haitian Creole")
+ - ha ("Hausa")
+ - haw ("Hawaiian")
+ - iw ("Hebrew")
+ - hi ("Hindi")
+ - hmn ("Hmong")
+ - hu ("Hungarian")
+ - is ("Icelandic")
+ - ig ("Igbo")
+ - id ("Indonesian")
+ - iu ("Inuktitut")
+ - ga ("Irish")
+ - it ("Italian")
+ - ja ("Japanese")
+ - jv ("Javanese")
+ - kl ("Kalaallisut")
+ - kn ("Kannada")
+ - kk ("Kazakh")
+ - kha ("Khasi")
+ - km ("Khmer")
+ - rw ("Kinyarwanda")
+ - ko ("Korean")
+ - kri ("Krio")
+ - ku ("Kurdish")
+ - ky ("Kyrgyz")
+ - lo ("Lao")
+ - la ("Latin")
+ - lv ("Latvian")
+ - ln ("Lingala")
+ - lt ("Lithuanian")
+ - lua ("Luba-Lulua")
+ - luo ("Luo")
+ - lb ("Luxembourgish")
+ - mk ("Macedonian")
+ - mg ("Malagasy")
+ - ms ("Malay")
+ - ml ("Malayalam")
+ - mt ("Maltese")
+ - gv ("Manx")
+ - mi ("Māori")
+ - mr ("Marathi")
+ - mn ("Mongolian")
+ - mfe ("Morisyen")
+ - ne ("Nepali")
+ - new ("Newari")
+ - nso ("Northern Sotho")
+ - no ("Norwegian")
+ - ny ("Nyanja")
+ - oc ("Occitan")
+ - or ("Odia")
+ - om ("Oromo")
+ - os ("Ossetic")
+ - pam ("Pampanga")
+ - ps ("Pashto")
+ - fa ("Persian")
+ - pl ("Polish")
+ - pt ("Portuguese")
+ - pt-PT ("Portuguese (Portugal)")
+ - pa ("Punjabi")
+ - qu ("Quechua")
+ - ro ("Romanian")
+ - rn ("Rundi")
+ - ru ("Russian")
+ - sm ("Samoan")
+ - sg ("Sango")
+ - sa ("Sanskrit")
+ - gd ("Scottish Gaelic")
+ - sr ("Serbian")
+ - crs ("Seselwa Creole French")
+ - sn ("Shona")
+ - sd ("Sindhi")
+ - si ("Sinhala")
+ - sk ("Slovak")
+ - sl ("Slovenian")
+ - so ("Somali")
+ - st ("Southern Sotho")
+ - es ("Spanish")
+ - su ("Sundanese")
+ - sw ("Swahili")
+ - ss ("Swati")
+ - sv ("Swedish")
+ - tg ("Tajik")
+ - ta ("Tamil")
+ - tt ("Tatar")
+ - te ("Telugu")
+ - th ("Thai")
+ - bo ("Tibetan")
+ - ti ("Tigrinya")
+ - to ("Tongan")
+ - ts ("Tsonga")
+ - tn ("Tswana")
+ - tum ("Tumbuka")
+ - tr ("Turkish")
+ - tk ("Turkmen")
+ - uk ("Ukrainian")
+ - ur ("Urdu")
+ - ug ("Uyghur")
+ - uz ("Uzbek")
+ - ve ("Venda")
+ - vi ("Vietnamese")
+ - war ("Waray")
+ - cy ("Welsh")
+ - fy ("Western Frisian")
+ - wo ("Wolof")
+ - xh ("Xhosa")
+ - yi ("Yiddish")
+ - yo ("Yoruba")
+ - zu ("Zulu")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 52, in fetch_transcript
+    transcript = next(iter(transcript_list.transcripts))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TranscriptList' object has no attribute 'transcripts'
+
+⚠️ Transcript could not be retrieved.
+❌ Error while fetching transcript: 'TranscriptList' object has no attribute 'transcripts'
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 45, in fetch_transcript
+    transcript = transcript_list.find_transcript([lang])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 265, in find_transcript
+    return self._find_transcript(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 306, in _find_transcript
+    raise NoTranscriptFound(self.video_id, language_codes, self)
+youtube_transcript_api._errors.NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=dQw4w9WgXcQ! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['hi']
+
+For this video (dQw4w9WgXcQ) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+ - en ("English")[TRANSLATABLE]
+ - de-DE ("German (Germany)")[TRANSLATABLE]
+ - ja ("Japanese")[TRANSLATABLE]
+ - pt-BR ("Portuguese (Brazil)")[TRANSLATABLE]
+ - es-419 ("Spanish (Latin America)")[TRANSLATABLE]
+
+(GENERATED)
+ - en ("English (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - ab ("Abkhazian")
+ - aa ("Afar")
+ - af ("Afrikaans")
+ - ak ("Akan")
+ - sq ("Albanian")
+ - am ("Amharic")
+ - ar ("Arabic")
+ - hy ("Armenian")
+ - as ("Assamese")
+ - ay ("Aymara")
+ - az ("Azerbaijani")
+ - bn ("Bangla")
+ - ba ("Bashkir")
+ - eu ("Basque")
+ - be ("Belarusian")
+ - bho ("Bhojpuri")
+ - bs ("Bosnian")
+ - br ("Breton")
+ - bg ("Bulgarian")
+ - my ("Burmese")
+ - ca ("Catalan")
+ - ceb ("Cebuano")
+ - zh-Hans ("Chinese (Simplified)")
+ - zh-Hant ("Chinese (Traditional)")
+ - co ("Corsican")
+ - hr ("Croatian")
+ - cs ("Czech")
+ - da ("Danish")
+ - dv ("Divehi")
+ - nl ("Dutch")
+ - dz ("Dzongkha")
+ - en ("English")
+ - eo ("Esperanto")
+ - et ("Estonian")
+ - ee ("Ewe")
+ - fo ("Faroese")
+ - fj ("Fijian")
+ - fil ("Filipino")
+ - fi ("Finnish")
+ - fr ("French")
+ - gaa ("Ga")
+ - gl ("Galician")
+ - lg ("Ganda")
+ - ka ("Georgian")
+ - de ("German")
+ - el ("Greek")
+ - gn ("Guarani")
+ - gu ("Gujarati")
+ - ht ("Haitian Creole")
+ - ha ("Hausa")
+ - haw ("Hawaiian")
+ - iw ("Hebrew")
+ - hi ("Hindi")
+ - hmn ("Hmong")
+ - hu ("Hungarian")
+ - is ("Icelandic")
+ - ig ("Igbo")
+ - id ("Indonesian")
+ - iu ("Inuktitut")
+ - ga ("Irish")
+ - it ("Italian")
+ - ja ("Japanese")
+ - jv ("Javanese")
+ - kl ("Kalaallisut")
+ - kn ("Kannada")
+ - kk ("Kazakh")
+ - kha ("Khasi")
+ - km ("Khmer")
+ - rw ("Kinyarwanda")
+ - ko ("Korean")
+ - kri ("Krio")
+ - ku ("Kurdish")
+ - ky ("Kyrgyz")
+ - lo ("Lao")
+ - la ("Latin")
+ - lv ("Latvian")
+ - ln ("Lingala")
+ - lt ("Lithuanian")
+ - lua ("Luba-Lulua")
+ - luo ("Luo")
+ - lb ("Luxembourgish")
+ - mk ("Macedonian")
+ - mg ("Malagasy")
+ - ms ("Malay")
+ - ml ("Malayalam")
+ - mt ("Maltese")
+ - gv ("Manx")
+ - mi ("Māori")
+ - mr ("Marathi")
+ - mn ("Mongolian")
+ - mfe ("Morisyen")
+ - ne ("Nepali")
+ - new ("Newari")
+ - nso ("Northern Sotho")
+ - no ("Norwegian")
+ - ny ("Nyanja")
+ - oc ("Occitan")
+ - or ("Odia")
+ - om ("Oromo")
+ - os ("Ossetic")
+ - pam ("Pampanga")
+ - ps ("Pashto")
+ - fa ("Persian")
+ - pl ("Polish")
+ - pt ("Portuguese")
+ - pt-PT ("Portuguese (Portugal)")
+ - pa ("Punjabi")
+ - qu ("Quechua")
+ - ro ("Romanian")
+ - rn ("Rundi")
+ - ru ("Russian")
+ - sm ("Samoan")
+ - sg ("Sango")
+ - sa ("Sanskrit")
+ - gd ("Scottish Gaelic")
+ - sr ("Serbian")
+ - crs ("Seselwa Creole French")
+ - sn ("Shona")
+ - sd ("Sindhi")
+ - si ("Sinhala")
+ - sk ("Slovak")
+ - sl ("Slovenian")
+ - so ("Somali")
+ - st ("Southern Sotho")
+ - es ("Spanish")
+ - su ("Sundanese")
+ - sw ("Swahili")
+ - ss ("Swati")
+ - sv ("Swedish")
+ - tg ("Tajik")
+ - ta ("Tamil")
+ - tt ("Tatar")
+ - te ("Telugu")
+ - th ("Thai")
+ - bo ("Tibetan")
+ - ti ("Tigrinya")
+ - to ("Tongan")
+ - ts ("Tsonga")
+ - tn ("Tswana")
+ - tum ("Tumbuka")
+ - tr ("Turkish")
+ - tk ("Turkmen")
+ - uk ("Ukrainian")
+ - ur ("Urdu")
+ - ug ("Uyghur")
+ - uz ("Uzbek")
+ - ve ("Venda")
+ - vi ("Vietnamese")
+ - war ("Waray")
+ - cy ("Welsh")
+ - fy ("Western Frisian")
+ - wo ("Wolof")
+ - xh ("Xhosa")
+ - yi ("Yiddish")
+ - yo ("Yoruba")
+ - zu ("Zulu")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 48, in fetch_transcript
+    transcript = transcript_list.find_generated_transcript([lang])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 279, in find_generated_transcript
+    return self._find_transcript(language_codes, [self._generated_transcripts])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 306, in _find_transcript
+    raise NoTranscriptFound(self.video_id, language_codes, self)
+youtube_transcript_api._errors.NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=dQw4w9WgXcQ! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['hi']
+
+For this video (dQw4w9WgXcQ) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+ - en ("English")[TRANSLATABLE]
+ - de-DE ("German (Germany)")[TRANSLATABLE]
+ - ja ("Japanese")[TRANSLATABLE]
+ - pt-BR ("Portuguese (Brazil)")[TRANSLATABLE]
+ - es-419 ("Spanish (Latin America)")[TRANSLATABLE]
+
+(GENERATED)
+ - en ("English (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - ab ("Abkhazian")
+ - aa ("Afar")
+ - af ("Afrikaans")
+ - ak ("Akan")
+ - sq ("Albanian")
+ - am ("Amharic")
+ - ar ("Arabic")
+ - hy ("Armenian")
+ - as ("Assamese")
+ - ay ("Aymara")
+ - az ("Azerbaijani")
+ - bn ("Bangla")
+ - ba ("Bashkir")
+ - eu ("Basque")
+ - be ("Belarusian")
+ - bho ("Bhojpuri")
+ - bs ("Bosnian")
+ - br ("Breton")
+ - bg ("Bulgarian")
+ - my ("Burmese")
+ - ca ("Catalan")
+ - ceb ("Cebuano")
+ - zh-Hans ("Chinese (Simplified)")
+ - zh-Hant ("Chinese (Traditional)")
+ - co ("Corsican")
+ - hr ("Croatian")
+ - cs ("Czech")
+ - da ("Danish")
+ - dv ("Divehi")
+ - nl ("Dutch")
+ - dz ("Dzongkha")
+ - en ("English")
+ - eo ("Esperanto")
+ - et ("Estonian")
+ - ee ("Ewe")
+ - fo ("Faroese")
+ - fj ("Fijian")
+ - fil ("Filipino")
+ - fi ("Finnish")
+ - fr ("French")
+ - gaa ("Ga")
+ - gl ("Galician")
+ - lg ("Ganda")
+ - ka ("Georgian")
+ - de ("German")
+ - el ("Greek")
+ - gn ("Guarani")
+ - gu ("Gujarati")
+ - ht ("Haitian Creole")
+ - ha ("Hausa")
+ - haw ("Hawaiian")
+ - iw ("Hebrew")
+ - hi ("Hindi")
+ - hmn ("Hmong")
+ - hu ("Hungarian")
+ - is ("Icelandic")
+ - ig ("Igbo")
+ - id ("Indonesian")
+ - iu ("Inuktitut")
+ - ga ("Irish")
+ - it ("Italian")
+ - ja ("Japanese")
+ - jv ("Javanese")
+ - kl ("Kalaallisut")
+ - kn ("Kannada")
+ - kk ("Kazakh")
+ - kha ("Khasi")
+ - km ("Khmer")
+ - rw ("Kinyarwanda")
+ - ko ("Korean")
+ - kri ("Krio")
+ - ku ("Kurdish")
+ - ky ("Kyrgyz")
+ - lo ("Lao")
+ - la ("Latin")
+ - lv ("Latvian")
+ - ln ("Lingala")
+ - lt ("Lithuanian")
+ - lua ("Luba-Lulua")
+ - luo ("Luo")
+ - lb ("Luxembourgish")
+ - mk ("Macedonian")
+ - mg ("Malagasy")
+ - ms ("Malay")
+ - ml ("Malayalam")
+ - mt ("Maltese")
+ - gv ("Manx")
+ - mi ("Māori")
+ - mr ("Marathi")
+ - mn ("Mongolian")
+ - mfe ("Morisyen")
+ - ne ("Nepali")
+ - new ("Newari")
+ - nso ("Northern Sotho")
+ - no ("Norwegian")
+ - ny ("Nyanja")
+ - oc ("Occitan")
+ - or ("Odia")
+ - om ("Oromo")
+ - os ("Ossetic")
+ - pam ("Pampanga")
+ - ps ("Pashto")
+ - fa ("Persian")
+ - pl ("Polish")
+ - pt ("Portuguese")
+ - pt-PT ("Portuguese (Portugal)")
+ - pa ("Punjabi")
+ - qu ("Quechua")
+ - ro ("Romanian")
+ - rn ("Rundi")
+ - ru ("Russian")
+ - sm ("Samoan")
+ - sg ("Sango")
+ - sa ("Sanskrit")
+ - gd ("Scottish Gaelic")
+ - sr ("Serbian")
+ - crs ("Seselwa Creole French")
+ - sn ("Shona")
+ - sd ("Sindhi")
+ - si ("Sinhala")
+ - sk ("Slovak")
+ - sl ("Slovenian")
+ - so ("Somali")
+ - st ("Southern Sotho")
+ - es ("Spanish")
+ - su ("Sundanese")
+ - sw ("Swahili")
+ - ss ("Swati")
+ - sv ("Swedish")
+ - tg ("Tajik")
+ - ta ("Tamil")
+ - tt ("Tatar")
+ - te ("Telugu")
+ - th ("Thai")
+ - bo ("Tibetan")
+ - ti ("Tigrinya")
+ - to ("Tongan")
+ - ts ("Tsonga")
+ - tn ("Tswana")
+ - tum ("Tumbuka")
+ - tr ("Turkish")
+ - tk ("Turkmen")
+ - uk ("Ukrainian")
+ - ur ("Urdu")
+ - ug ("Uyghur")
+ - uz ("Uzbek")
+ - ve ("Venda")
+ - vi ("Vietnamese")
+ - war ("Waray")
+ - cy ("Welsh")
+ - fy ("Western Frisian")
+ - wo ("Wolof")
+ - xh ("Xhosa")
+ - yi ("Yiddish")
+ - yo ("Yoruba")
+ - zu ("Zulu")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 52, in fetch_transcript
+    transcript = next(iter(transcript_list.transcripts))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TranscriptList' object has no attribute 'transcripts'
+
+⚠️ Transcript could not be retrieved.
+❌ Error while fetching transcript: 'TranscriptList' object has no attribute 'transcripts'
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 45, in fetch_transcript
+    transcript = transcript_list.find_transcript([lang])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 265, in find_transcript
+    return self._find_transcript(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 306, in _find_transcript
+    raise NoTranscriptFound(self.video_id, language_codes, self)
+youtube_transcript_api._errors.NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=dQw4w9WgXcQ! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['hi']
+
+For this video (dQw4w9WgXcQ) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+ - en ("English")[TRANSLATABLE]
+ - de-DE ("German (Germany)")[TRANSLATABLE]
+ - ja ("Japanese")[TRANSLATABLE]
+ - pt-BR ("Portuguese (Brazil)")[TRANSLATABLE]
+ - es-419 ("Spanish (Latin America)")[TRANSLATABLE]
+
+(GENERATED)
+ - en ("English (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - ab ("Abkhazian")
+ - aa ("Afar")
+ - af ("Afrikaans")
+ - ak ("Akan")
+ - sq ("Albanian")
+ - am ("Amharic")
+ - ar ("Arabic")
+ - hy ("Armenian")
+ - as ("Assamese")
+ - ay ("Aymara")
+ - az ("Azerbaijani")
+ - bn ("Bangla")
+ - ba ("Bashkir")
+ - eu ("Basque")
+ - be ("Belarusian")
+ - bho ("Bhojpuri")
+ - bs ("Bosnian")
+ - br ("Breton")
+ - bg ("Bulgarian")
+ - my ("Burmese")
+ - ca ("Catalan")
+ - ceb ("Cebuano")
+ - zh-Hans ("Chinese (Simplified)")
+ - zh-Hant ("Chinese (Traditional)")
+ - co ("Corsican")
+ - hr ("Croatian")
+ - cs ("Czech")
+ - da ("Danish")
+ - dv ("Divehi")
+ - nl ("Dutch")
+ - dz ("Dzongkha")
+ - en ("English")
+ - eo ("Esperanto")
+ - et ("Estonian")
+ - ee ("Ewe")
+ - fo ("Faroese")
+ - fj ("Fijian")
+ - fil ("Filipino")
+ - fi ("Finnish")
+ - fr ("French")
+ - gaa ("Ga")
+ - gl ("Galician")
+ - lg ("Ganda")
+ - ka ("Georgian")
+ - de ("German")
+ - el ("Greek")
+ - gn ("Guarani")
+ - gu ("Gujarati")
+ - ht ("Haitian Creole")
+ - ha ("Hausa")
+ - haw ("Hawaiian")
+ - iw ("Hebrew")
+ - hi ("Hindi")
+ - hmn ("Hmong")
+ - hu ("Hungarian")
+ - is ("Icelandic")
+ - ig ("Igbo")
+ - id ("Indonesian")
+ - iu ("Inuktitut")
+ - ga ("Irish")
+ - it ("Italian")
+ - ja ("Japanese")
+ - jv ("Javanese")
+ - kl ("Kalaallisut")
+ - kn ("Kannada")
+ - kk ("Kazakh")
+ - kha ("Khasi")
+ - km ("Khmer")
+ - rw ("Kinyarwanda")
+ - ko ("Korean")
+ - kri ("Krio")
+ - ku ("Kurdish")
+ - ky ("Kyrgyz")
+ - lo ("Lao")
+ - la ("Latin")
+ - lv ("Latvian")
+ - ln ("Lingala")
+ - lt ("Lithuanian")
+ - lua ("Luba-Lulua")
+ - luo ("Luo")
+ - lb ("Luxembourgish")
+ - mk ("Macedonian")
+ - mg ("Malagasy")
+ - ms ("Malay")
+ - ml ("Malayalam")
+ - mt ("Maltese")
+ - gv ("Manx")
+ - mi ("Māori")
+ - mr ("Marathi")
+ - mn ("Mongolian")
+ - mfe ("Morisyen")
+ - ne ("Nepali")
+ - new ("Newari")
+ - nso ("Northern Sotho")
+ - no ("Norwegian")
+ - ny ("Nyanja")
+ - oc ("Occitan")
+ - or ("Odia")
+ - om ("Oromo")
+ - os ("Ossetic")
+ - pam ("Pampanga")
+ - ps ("Pashto")
+ - fa ("Persian")
+ - pl ("Polish")
+ - pt ("Portuguese")
+ - pt-PT ("Portuguese (Portugal)")
+ - pa ("Punjabi")
+ - qu ("Quechua")
+ - ro ("Romanian")
+ - rn ("Rundi")
+ - ru ("Russian")
+ - sm ("Samoan")
+ - sg ("Sango")
+ - sa ("Sanskrit")
+ - gd ("Scottish Gaelic")
+ - sr ("Serbian")
+ - crs ("Seselwa Creole French")
+ - sn ("Shona")
+ - sd ("Sindhi")
+ - si ("Sinhala")
+ - sk ("Slovak")
+ - sl ("Slovenian")
+ - so ("Somali")
+ - st ("Southern Sotho")
+ - es ("Spanish")
+ - su ("Sundanese")
+ - sw ("Swahili")
+ - ss ("Swati")
+ - sv ("Swedish")
+ - tg ("Tajik")
+ - ta ("Tamil")
+ - tt ("Tatar")
+ - te ("Telugu")
+ - th ("Thai")
+ - bo ("Tibetan")
+ - ti ("Tigrinya")
+ - to ("Tongan")
+ - ts ("Tsonga")
+ - tn ("Tswana")
+ - tum ("Tumbuka")
+ - tr ("Turkish")
+ - tk ("Turkmen")
+ - uk ("Ukrainian")
+ - ur ("Urdu")
+ - ug ("Uyghur")
+ - uz ("Uzbek")
+ - ve ("Venda")
+ - vi ("Vietnamese")
+ - war ("Waray")
+ - cy ("Welsh")
+ - fy ("Western Frisian")
+ - wo ("Wolof")
+ - xh ("Xhosa")
+ - yi ("Yiddish")
+ - yo ("Yoruba")
+ - zu ("Zulu")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 48, in fetch_transcript
+    transcript = transcript_list.find_generated_transcript([lang])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 279, in find_generated_transcript
+    return self._find_transcript(language_codes, [self._generated_transcripts])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 306, in _find_transcript
+    raise NoTranscriptFound(self.video_id, language_codes, self)
+youtube_transcript_api._errors.NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=dQw4w9WgXcQ! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['hi']
+
+For this video (dQw4w9WgXcQ) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+ - en ("English")[TRANSLATABLE]
+ - de-DE ("German (Germany)")[TRANSLATABLE]
+ - ja ("Japanese")[TRANSLATABLE]
+ - pt-BR ("Portuguese (Brazil)")[TRANSLATABLE]
+ - es-419 ("Spanish (Latin America)")[TRANSLATABLE]
+
+(GENERATED)
+ - en ("English (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - ab ("Abkhazian")
+ - aa ("Afar")
+ - af ("Afrikaans")
+ - ak ("Akan")
+ - sq ("Albanian")
+ - am ("Amharic")
+ - ar ("Arabic")
+ - hy ("Armenian")
+ - as ("Assamese")
+ - ay ("Aymara")
+ - az ("Azerbaijani")
+ - bn ("Bangla")
+ - ba ("Bashkir")
+ - eu ("Basque")
+ - be ("Belarusian")
+ - bho ("Bhojpuri")
+ - bs ("Bosnian")
+ - br ("Breton")
+ - bg ("Bulgarian")
+ - my ("Burmese")
+ - ca ("Catalan")
+ - ceb ("Cebuano")
+ - zh-Hans ("Chinese (Simplified)")
+ - zh-Hant ("Chinese (Traditional)")
+ - co ("Corsican")
+ - hr ("Croatian")
+ - cs ("Czech")
+ - da ("Danish")
+ - dv ("Divehi")
+ - nl ("Dutch")
+ - dz ("Dzongkha")
+ - en ("English")
+ - eo ("Esperanto")
+ - et ("Estonian")
+ - ee ("Ewe")
+ - fo ("Faroese")
+ - fj ("Fijian")
+ - fil ("Filipino")
+ - fi ("Finnish")
+ - fr ("French")
+ - gaa ("Ga")
+ - gl ("Galician")
+ - lg ("Ganda")
+ - ka ("Georgian")
+ - de ("German")
+ - el ("Greek")
+ - gn ("Guarani")
+ - gu ("Gujarati")
+ - ht ("Haitian Creole")
+ - ha ("Hausa")
+ - haw ("Hawaiian")
+ - iw ("Hebrew")
+ - hi ("Hindi")
+ - hmn ("Hmong")
+ - hu ("Hungarian")
+ - is ("Icelandic")
+ - ig ("Igbo")
+ - id ("Indonesian")
+ - iu ("Inuktitut")
+ - ga ("Irish")
+ - it ("Italian")
+ - ja ("Japanese")
+ - jv ("Javanese")
+ - kl ("Kalaallisut")
+ - kn ("Kannada")
+ - kk ("Kazakh")
+ - kha ("Khasi")
+ - km ("Khmer")
+ - rw ("Kinyarwanda")
+ - ko ("Korean")
+ - kri ("Krio")
+ - ku ("Kurdish")
+ - ky ("Kyrgyz")
+ - lo ("Lao")
+ - la ("Latin")
+ - lv ("Latvian")
+ - ln ("Lingala")
+ - lt ("Lithuanian")
+ - lua ("Luba-Lulua")
+ - luo ("Luo")
+ - lb ("Luxembourgish")
+ - mk ("Macedonian")
+ - mg ("Malagasy")
+ - ms ("Malay")
+ - ml ("Malayalam")
+ - mt ("Maltese")
+ - gv ("Manx")
+ - mi ("Māori")
+ - mr ("Marathi")
+ - mn ("Mongolian")
+ - mfe ("Morisyen")
+ - ne ("Nepali")
+ - new ("Newari")
+ - nso ("Northern Sotho")
+ - no ("Norwegian")
+ - ny ("Nyanja")
+ - oc ("Occitan")
+ - or ("Odia")
+ - om ("Oromo")
+ - os ("Ossetic")
+ - pam ("Pampanga")
+ - ps ("Pashto")
+ - fa ("Persian")
+ - pl ("Polish")
+ - pt ("Portuguese")
+ - pt-PT ("Portuguese (Portugal)")
+ - pa ("Punjabi")
+ - qu ("Quechua")
+ - ro ("Romanian")
+ - rn ("Rundi")
+ - ru ("Russian")
+ - sm ("Samoan")
+ - sg ("Sango")
+ - sa ("Sanskrit")
+ - gd ("Scottish Gaelic")
+ - sr ("Serbian")
+ - crs ("Seselwa Creole French")
+ - sn ("Shona")
+ - sd ("Sindhi")
+ - si ("Sinhala")
+ - sk ("Slovak")
+ - sl ("Slovenian")
+ - so ("Somali")
+ - st ("Southern Sotho")
+ - es ("Spanish")
+ - su ("Sundanese")
+ - sw ("Swahili")
+ - ss ("Swati")
+ - sv ("Swedish")
+ - tg ("Tajik")
+ - ta ("Tamil")
+ - tt ("Tatar")
+ - te ("Telugu")
+ - th ("Thai")
+ - bo ("Tibetan")
+ - ti ("Tigrinya")
+ - to ("Tongan")
+ - ts ("Tsonga")
+ - tn ("Tswana")
+ - tum ("Tumbuka")
+ - tr ("Turkish")
+ - tk ("Turkmen")
+ - uk ("Ukrainian")
+ - ur ("Urdu")
+ - ug ("Uyghur")
+ - uz ("Uzbek")
+ - ve ("Venda")
+ - vi ("Vietnamese")
+ - war ("Waray")
+ - cy ("Welsh")
+ - fy ("Western Frisian")
+ - wo ("Wolof")
+ - xh ("Xhosa")
+ - yi ("Yiddish")
+ - yo ("Yoruba")
+ - zu ("Zulu")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 52, in fetch_transcript
+    transcript = next(iter(transcript_list.transcripts))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TranscriptList' object has no attribute 'transcripts'
+
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in English (manual)
+❌ Failed to fetch actual transcript content: no element found: line 1, column 0
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/xml/etree/ElementTree.py", line 1716, in close
+    self.parser.Parse(b"", True) # end of data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+xml.parsers.expat.ExpatError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 55, in fetch_transcript
+    transcript_data = transcript.fetch()
+                      ^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 134, in fetch
+    snippets = _TranscriptParser(preserve_formatting=preserve_formatting).parse(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 474, in parse
+    for xml_element in ElementTree.fromstring(raw_data)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/defusedxml/common.py", line 127, in fromstring
+    return parser.close()
+           ^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/xml/etree/ElementTree.py", line 1718, in close
+    self._raiseerror(v)
+  File "/opt/anaconda3/lib/python3.11/xml/etree/ElementTree.py", line 1618, in _raiseerror
+    raise err
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in English (manual)
+❌ Failed to fetch actual transcript content: 'FetchedTranscriptSnippet' object is not subscriptable
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 60, in fetch_transcript
+    text = " ".join([t['text'] for t in transcript_data])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 60, in <listcomp>
+    text = " ".join([t['text'] for t in transcript_data])
+                     ~^^^^^^^^
+TypeError: 'FetchedTranscriptSnippet' object is not subscriptable
+
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in English (manual)
+❌ Failed to fetch actual transcript content: 'FetchedTranscriptSnippet' object is not subscriptable
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 60, in fetch_transcript
+    text = " ".join([t['text'] for t in transcript_data])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 60, in <listcomp>
+    text = " ".join([t['text'] for t in transcript_data])
+                     ~^^^^^^^^
+TypeError: 'FetchedTranscriptSnippet' object is not subscriptable
+
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in English (manual)
+❌ Failed to fetch actual transcript content: 'FetchedTranscriptSnippet' object is not subscriptable
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 60, in fetch_transcript
+    text = " ".join([t['text'] for t in transcript_data])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 60, in <listcomp>
+    text = " ".join([t['text'] for t in transcript_data])
+                     ~^^^^^^^^
+TypeError: 'FetchedTranscriptSnippet' object is not subscriptable
+
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in English (auto-generated) (auto-generated)
+❌ Failed to fetch actual transcript content: 'FetchedTranscriptSnippet' object is not subscriptable
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 60, in fetch_transcript
+    text = " ".join([t['text'] for t in transcript_data])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 60, in <listcomp>
+    text = " ".join([t['text'] for t in transcript_data])
+                     ~^^^^^^^^
+TypeError: 'FetchedTranscriptSnippet' object is not subscriptable
+
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in English (auto-generated) (auto-generated)
+❌ Failed to fetch actual transcript content: no element found: line 1, column 0
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/xml/etree/ElementTree.py", line 1716, in close
+    self.parser.Parse(b"", True) # end of data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+xml.parsers.expat.ExpatError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 55, in fetch_transcript
+    transcript_data = transcript.fetch()
+                      ^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 134, in fetch
+    snippets = _TranscriptParser(preserve_formatting=preserve_formatting).parse(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 474, in parse
+    for xml_element in ElementTree.fromstring(raw_data)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/defusedxml/common.py", line 127, in fromstring
+    return parser.close()
+           ^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/xml/etree/ElementTree.py", line 1718, in close
+    self._raiseerror(v)
+  File "/opt/anaconda3/lib/python3.11/xml/etree/ElementTree.py", line 1618, in _raiseerror
+    raise err
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in English (auto-generated) (auto-generated)
+❌ Failed to fetch actual transcript content: 'FetchedTranscriptSnippet' object is not subscriptable
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 60, in fetch_transcript
+    text = " ".join([t['text'] for t in transcript_data])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 60, in <listcomp>
+    text = " ".join([t['text'] for t in transcript_data])
+                     ~^^^^^^^^
+TypeError: 'FetchedTranscriptSnippet' object is not subscriptable
+
+⚠️ Transcript could not be retrieved.
+✅ Found transcript in English (auto-generated) (auto-generated)
+❌ Failed to fetch actual transcript content: no element found: line 1, column 0
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/xml/etree/ElementTree.py", line 1716, in close
+    self.parser.Parse(b"", True) # end of data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+xml.parsers.expat.ExpatError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abhaychoudhary/task new1/face-the-market-marketing/python3 youtube_transcript_module.py", line 55, in fetch_transcript
+    transcript_data = transcript.fetch()
+                      ^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 134, in fetch
+    snippets = _TranscriptParser(preserve_formatting=preserve_formatting).parse(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/youtube_transcript_api/_transcripts.py", line 474, in parse
+    for xml_element in ElementTree.fromstring(raw_data)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/defusedxml/common.py", line 127, in fromstring
+    return parser.close()
+           ^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/xml/etree/ElementTree.py", line 1718, in close
+    self._raiseerror(v)
+  File "/opt/anaconda3/lib/python3.11/xml/etree/ElementTree.py", line 1618, in _raiseerror
+    raise err
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+⚠️ Transcript could not be retrieved.
